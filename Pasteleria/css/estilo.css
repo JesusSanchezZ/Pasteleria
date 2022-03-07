@@ -1,6 +1,9 @@
+/*
+  los estilos fueron sacados de https://www.w3schools.com/css/
+*/
+
 body {
     background-color: #f1f1f1 ; /* #F9EBF9 */
-    color: ;
 }
 
 ul {
@@ -54,6 +57,96 @@ ul {
     display: block;
   }
 
+  .header {
+    background-color: #FCA4FC;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .logo {
+    border-radius: 50%;
+    opacity: 0.6;
+  }
+
+  .logo1 {
+    padding: 10px;
+    border-radius: 50%;
+    opacity: 0.6;
+  }
+
+  h2 {
+    padding: 5px;
+    text-align: center;
+  }
+
+  div.galeria {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+  }
+
+  div.galeria:hover{
+    border: 1px solid #777;
+  }
+
+  div.galeria img{
+    width: 100%;
+    height: auto;
+  }
+
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+
+  .opciones{
+    padding-bottom: 450px;
+  }
+  form{
+    align-items: center;
+  }
+  input {
+    width: 100%;
+  }
+  textarea{
+    padding: 10px 0px 10px;
+    width: 100%;
+  }
+
+  input[type=submit] {
+    background-color: #04AA6D;
+    border: none;
+    color: white;
+    border-radius: 20px;
+    padding: 16px 32px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  input[type=reset]{
+    background-color: #D53718 ;
+    border: none;
+    color: white;
+    border-radius: 20px;
+    padding: 16px 32px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+  table{
+    margin: 20px 0px 80px;
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+  th, td{
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #777;
+  }
+  tr:hover{background-color: #FCA4FC;}
+
   .footer {
+      padding-top: 50px;
       text-align: center;
   }
